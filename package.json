@@ -1,0 +1,21 @@
+{
+  "name": "clase-16---base-de-datos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express-handlebars": "^6.0.6",
+    "knex": "^2.3.0",
+    "mariadb": "^3.0.2",
+    "mysql": "^2.18.1",
+    "socketio": "^1.0.0",
+    "sqlite3": "^5.1.2"
+  }
+}

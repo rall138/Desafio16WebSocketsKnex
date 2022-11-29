@@ -1,0 +1,16 @@
+<table class="table table-dark">
+    <thead>
+        <th>Nombre</th>
+        <th>Precio</th>
+        <th>Foto</th>
+    </thead>
+    <tbody>
+        {{#each productos}}
+            <tr>
+                <td>{{this.nombre}}</td>
+                <td>${{this.precio}}</td>
+                <td><img class="image-icon" src="{{this.foto}}" /></td>
+            </tr>
+        {{/each}}
+    </tbody>
+</table>

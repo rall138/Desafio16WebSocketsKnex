@@ -1,0 +1,28 @@
+.padding-10{
+    padding: 10px;
+}
+
+.image-icon{
+    height: 40px;
+    width: 40px;
+    max-height: 40px;
+    max-width: 40px;
+}
+
+.mail-message{
+    font-weight: bold;
+    color: blue;
+}
+
+.date-message{
+    color: brown;
+}
+
+.text-message{
+    color: green;
+    font-style: italic;
+}
+
+.invisible{
+    display: none;
+}

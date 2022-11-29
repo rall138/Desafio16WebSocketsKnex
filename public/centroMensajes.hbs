@@ -1,0 +1,17 @@
+<div>
+    <h2 class="mail-message">Centro de mensajes</h2>
+    <form onsubmit="return enviarMensaje(this)">
+        
+        <input type="text" id="correo" name="correo" placeholder="Igresá tu correo..." /></br>
+        <hr style="width:50%;text-align:left;margin-left:0">
+        
+        {{#each mensajes}}
+            <p><span class="mail-message">{{this.correo}}</span> [<span class="date-message">{{this.fechahora}}</span>] : 
+            <span class="text-message">{{this.mensaje}}</span></p>
+        {{/each}}
+
+        <input type="text" id="mensaje" name="mensaje" placeholder="Ingresá un mensaje..." />
+        <input type="submit" class="btn btn-success" value="Enviar!" />
+
+    </form>
+</div>

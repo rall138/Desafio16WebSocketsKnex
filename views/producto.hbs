@@ -1,0 +1,26 @@
+<div id="alert-message" class="alert alert-danger invisible" role="alert"></div>
+
+<h1 class="mail-message">Ingreso de producto</h1>
+
+<form onsubmit="return agregarProducto(this)" class="padding-10">
+    <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" id="nombre" class="form-control" name="nombre"/><br>
+    </div>
+
+    <div class="mb-3">
+        <label for="precio" class="form-label">Precio</label>
+        <input type="number" id="precio" class="form-control" name="precio"/><br>
+    </div>
+
+    <div class="mb-3">
+        <label for="foto" class="form-label">Foto Url</label>
+        <input type="text" id="foto" class="form-control" name="foto"/><br>
+    </div>
+
+    <input type="submit" class="btn btn-primary" value="Confirmar" />
+
+</form>
+
+<div id="productos-placeholder"></div>
+<div id="mensajes-placeholder"></div>
